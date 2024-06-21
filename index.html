@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image to PDF Converter</title>
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- Include html2pdf.js library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Image to PDF Converter</h1>
+    <input type="file" id="fileInput" accept="image/*">
+    <button id="convertBtn">Convert to PDF</button>
+    <div id="imagePreview">
+      <!-- Image preview will be displayed here -->
+    </div>
+    <div id="pdfContainer">
+      <!-- Download button and conversion message will be displayed here -->
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
